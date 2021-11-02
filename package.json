@@ -13,7 +13,8 @@
     "build:es6": "tsc -p tsconfig.build.json --outDir dist/es6 --target es6 --module es6",
     "build:cjs": "tsc -p tsconfig.build.json --outDir dist/cjs --target es5 --module commonjs",
     "typecheck": "yarn tsc --noEmit",
-    "test": "jest"
+    "test": "jest",
+    "docs": "docs-ts"
   },
   "files": [
     "dist"
